@@ -1,0 +1,32 @@
+karinme (0.3.1harmattan5+3.0.0snapshot.114) unstable; urgency=low
+
+  * Remove fullscreen with wmctrl.
+  * Change MicroEmulator version is SNAPSHOT 114.
+  * Remove menu bar, and move to right.
+  * MicroEmulator run with fullscreen, and max size is 800x480 in Harmattan.
+  * Fixed file size show exception.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  The, 2 Jun 2015 20:20:58 +0800
+
+karinme (0.3.0harmattan3+3.0.0snapshot.114) unstable; urgency=low
+
+  * Remove fullscreen with wmctrl.
+  * Change MicroEmulator version is SNAPSHOT 114.
+  * Remove menu bar, and move to right.
+  * MicroEmulator run with fullscreen, and max size is 800x480 in Harmattan.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Thu, 28 May 2015 15:58:25 +0800
+
+karinme (0.2.1harmattan3+3.0.0snapshot.109) unstable; urgency=low
+
+  * Add fullscreen with wmctrl.
+  * Add skin chooser.
+  * Add open/close terminal output.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Thu, 21 May 2015 11:49:01 +0800
+
+karinme (0.0.1harmattan1+3.0.0snapshot.109) unstable; urgency=low
+
+  * Initial release version.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Thu, 26 Feb 2015 10:45:59 +0800

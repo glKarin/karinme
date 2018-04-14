@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=KarinME
+Exec=/opt/karinme/bin/karinme %U
+Icon=/usr/share/icons/hicolor/80x80/apps/karinme80.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
+MimeType=application/x-java-archive;application/java-archive;text/vnd.sun.j2me.app-descriptor;
+

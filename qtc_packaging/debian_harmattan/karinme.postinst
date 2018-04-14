@@ -1,0 +1,15 @@
+#! /bin/sh
+
+case "$1" in
+    configure)
+    chmod a+x /opt/karinme/script/microemulator_sequential.sh
+    chmod a+x /opt/karinme/script/microemulator_with_fullscreen.sh
+    chmod a+x /opt/karinme/script/wmctrl_scan_window.sh
+        if test -x /usr/bin/update-mime-database; then
+            update-mime-database /usr/share/mime
+        fi
+        if test -x /usr/bin/update-desktop-database; then
+            update-desktop-database /usr/share/applications
+        fi
+        ;;
+esac
