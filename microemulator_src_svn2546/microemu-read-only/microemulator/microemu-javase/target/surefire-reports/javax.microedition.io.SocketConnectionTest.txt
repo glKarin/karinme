@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: javax.microedition.io.SocketConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.186 sec <<< FAILURE!
+testLoopback(javax.microedition.io.SocketConnectionTest)  Time elapsed: 21.083 sec  <<< ERROR!
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at org.microemu.cldc.socket.SocketConnection.<init>(SocketConnection.java:42)
+	at org.microemu.cldc.socket.Connection.open(Connection.java:54)
+	at org.microemu.microedition.io.ConnectorImpl.openSecure(ConnectorImpl.java:141)
+	at org.microemu.microedition.io.ConnectorImpl.access$200(ConnectorImpl.java:51)
+	at org.microemu.microedition.io.ConnectorImpl$1.run(ConnectorImpl.java:81)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.microemu.microedition.io.ConnectorImpl.open(ConnectorImpl.java:76)
+	at org.microemu.microedition.io.ConnectorAdapter.open(ConnectorAdapter.java:50)
+	at javax.microedition.io.Connector.open(Connector.java:49)
+	at javax.microedition.io.SocketConnectionTest.runLoopbackTest(SocketConnectionTest.java:45)
+	at javax.microedition.io.SocketConnectionTest.testLoopback(SocketConnectionTest.java:82)
+

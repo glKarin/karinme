@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="D:\java_build\FINAL\svn2546\microemu-read-only\microemulator\microemulator\target" file="D:\java_build\FINAL\svn2546\microemu-read-only\microemulator\microemulator/assembly.manifest" overwrite="true"/>
+  <tstamp>
+    <format pattern="yyyy-MM-dd hh:mm:ss" property="TODAY"/>
+  </tstamp>
+  <echo>pom.xml: timestamp ${TODAY}</echo>
+  <replace dir="D:\java_build\FINAL\svn2546\microemu-read-only\microemulator\microemulator\target">
+    <include name="assembly.manifest"/>
+    <replacefilter token="#build#" value="3.0.0-SNAPSHOT"/>
+    <replacefilter token="#version#" value="3.0.0-SNAPSHOT"/>
+    <replacefilter token="#user.name#" value="Administrator"/>
+    <replacefilter token="#today#" value="${TODAY}"/>
+    <replacefilter token="#scm.revision#" value="${scm.revision}"/>
+  </replace>
+</target>
+</project>

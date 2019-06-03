@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: org.microemu.app.classloader.MIDletClassLoaderTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.369 sec <<< FAILURE!
+testTimer(org.microemu.app.classloader.MIDletClassLoaderTest)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.microemu.MIDletBridge.getMIDletContext(MIDletBridge.java:98)
+	at org.microemu.app.util.MIDletThread.register(MIDletThread.java:84)
+	at org.microemu.app.util.MIDletThread.<init>(MIDletThread.java:70)
+	at org.microemu.app.util.MIDletTimer.<init>(MIDletTimer.java:70)
+	at org.TimerExtendsClass.<init>(TimerExtendsClass.java:12)
+	at org.TimerCreationRunner.run(TimerCreationRunner.java:42)
+	at org.microemu.app.classloader.MIDletClassLoaderTest.testTimer(MIDletClassLoaderTest.java:179)
+
+testTimerCancell(org.microemu.app.classloader.MIDletClassLoaderTest)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.microemu.MIDletBridge.getMIDletContext(MIDletBridge.java:98)
+	at org.microemu.app.util.MIDletThread.register(MIDletThread.java:84)
+	at org.microemu.app.util.MIDletThread.<init>(MIDletThread.java:70)
+	at org.microemu.app.util.MIDletTimer.<init>(MIDletTimer.java:70)
+	at org.TimerTaskCancelRunner.run(TimerTaskCancelRunner.java:51)
+	at org.microemu.app.classloader.MIDletClassLoaderTest.testTimerCancell(MIDletClassLoaderTest.java:198)
+

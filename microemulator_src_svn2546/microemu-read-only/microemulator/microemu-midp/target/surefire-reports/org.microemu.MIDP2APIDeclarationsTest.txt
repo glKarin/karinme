@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: org.microemu.MIDP2APIDeclarationsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.161 sec <<< FAILURE!
+testAPIDeclaration(org.microemu.MIDP2APIDeclarationsTest)  Time elapsed: 1.115 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: javax.microedition.lcdui.Command number of Methods, Extra method(s) [setImage(javax.microedition.lcdui.Image)] expected:<4> but was:<5>
+javax.microedition.lcdui.Font number of Methods, Extra method(s) [hashCode()] expected:<16> but was:<17>
+javax.microedition.lcdui.List.getTicker()Ljavax/microedition/lcdui/Ticker; is Missing
+javax.microedition.lcdui.List number of Methods expected:<22> but was:<21>
+javax.microedition.media.Control is missing
+javax.microedition.media.Controllable is missing
+javax.microedition.media.Manager is missing
+javax.microedition.media.MediaException is missing
+javax.microedition.media.Player is missing
+javax.microedition.media.PlayerListener is missing
+javax.microedition.media.control.ToneControl is missing
+javax.microedition.media.control.VolumeControl is missing
+	at junit.framework.Assert.fail(Assert.java:47)
+	at net.sf.jour.signature.SignatureTestCase.testAPIDeclaration(SignatureTestCase.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:165)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:289)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1005)
+

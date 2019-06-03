@@ -1,0 +1,11 @@
+org.microemu.Injected
+org.microemu.Injected: java.io.PrintStream out
+org.microemu.Injected: java.io.PrintStream err
+org.microemu.Injected: Injected()
+org.microemu.Injected: java.io.PrintStream outPrintStream()
+org.microemu.Injected: java.io.PrintStream errPrintStream()
+org.microemu.Injected: void printStackTrace(java.lang.Throwable)
+org.microemu.Injected: java.lang.String getProperty(java.lang.String)
+org.microemu.Injected: java.io.InputStream getResourceAsStream(java.lang.Class,java.lang.String)
+org.microemu.Injected: java.lang.Throwable handleCatchThrowable(java.lang.Throwable)
+org.microemu.Injected: void <clinit>()

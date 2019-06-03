@@ -1,0 +1,9 @@
+MIDlet-Jar-URL: microemu-test-midlet-3.0.0-SNAPSHOT-test.jar
+MIDlet-Jar-Size: 43801
+MIDlet-Name: microemu-test-midlet
+MIDlet-Vendor: MicroEmulator Team
+MIDlet-Version: 3.0.0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ManualTest, , org.microemu.tests.MainTestMIDlet
+MIDlet-2: UnitTests, , org.microemu.tests.UnitTestsMIDLet

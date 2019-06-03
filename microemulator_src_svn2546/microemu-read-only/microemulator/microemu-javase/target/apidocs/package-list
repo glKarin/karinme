@@ -1,0 +1,17 @@
+nanoxml
+org.microemu
+org.microemu.app
+org.microemu.app.classloader
+org.microemu.app.ui
+org.microemu.app.util
+org.microemu.cldc
+org.microemu.cldc.datagram
+org.microemu.cldc.http
+org.microemu.cldc.https
+org.microemu.cldc.socket
+org.microemu.cldc.ssl
+org.microemu.device.impl
+org.microemu.device.impl.ui
+org.microemu.log
+org.microemu.microedition.io
+org.microemu.util

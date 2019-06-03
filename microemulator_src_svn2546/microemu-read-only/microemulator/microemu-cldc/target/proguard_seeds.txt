@@ -1,0 +1,117 @@
+javax.microedition.io.ConnectionNotFoundException
+javax.microedition.io.ConnectionNotFoundException: ConnectionNotFoundException()
+javax.microedition.io.ConnectionNotFoundException: ConnectionNotFoundException(java.lang.String)
+org.microemu.microedition.io.ConnectorAdapter
+org.microemu.microedition.io.ConnectorAdapter: ConnectorAdapter()
+org.microemu.microedition.io.ConnectorAdapter: javax.microedition.io.Connection open(java.lang.String,int,boolean)
+org.microemu.microedition.io.ConnectorAdapter: javax.microedition.io.Connection open(java.lang.String)
+org.microemu.microedition.io.ConnectorAdapter: javax.microedition.io.Connection open(java.lang.String,int)
+org.microemu.microedition.io.ConnectorAdapter: java.io.DataInputStream openDataInputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorAdapter: java.io.DataOutputStream openDataOutputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorAdapter: java.io.InputStream openInputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorAdapter: java.io.OutputStream openOutputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorDelegate
+org.microemu.microedition.io.ConnectorDelegate: javax.microedition.io.Connection open(java.lang.String)
+org.microemu.microedition.io.ConnectorDelegate: javax.microedition.io.Connection open(java.lang.String,int)
+org.microemu.microedition.io.ConnectorDelegate: javax.microedition.io.Connection open(java.lang.String,int,boolean)
+org.microemu.microedition.io.ConnectorDelegate: java.io.DataInputStream openDataInputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorDelegate: java.io.DataOutputStream openDataOutputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorDelegate: java.io.InputStream openInputStream(java.lang.String)
+org.microemu.microedition.io.ConnectorDelegate: java.io.OutputStream openOutputStream(java.lang.String)
+org.microemu.microedition.io.ConnectionImplementation
+org.microemu.microedition.io.ConnectionImplementation: javax.microedition.io.Connection openConnection(java.lang.String,int,boolean)
+org.microemu.microedition.ImplFactory
+org.microemu.microedition.ImplFactory: java.lang.String DEFAULT
+org.microemu.microedition.ImplFactory: org.microemu.microedition.ImplFactory instance()
+org.microemu.microedition.ImplFactory: void register(java.lang.Class,java.lang.Class)
+org.microemu.microedition.ImplFactory: void register(java.lang.Class,java.lang.Object)
+org.microemu.microedition.ImplFactory: void unregister(java.lang.Class,java.lang.Class)
+org.microemu.microedition.ImplFactory: void registerGCF(java.lang.String,java.lang.Object)
+org.microemu.microedition.ImplFactory: void unregistedGCF(java.lang.String,java.lang.Object)
+org.microemu.microedition.ImplFactory: java.lang.String getCGFScheme(java.lang.String)
+org.microemu.microedition.ImplFactory: org.microemu.microedition.io.ConnectorDelegate getCGFImplementation(java.lang.String)
+org.microemu.microedition.ImplFactory: org.microemu.microedition.Implementation getImplementation(java.lang.Class,java.lang.Class)
+javax.microedition.io.OutputConnection
+javax.microedition.io.OutputConnection: java.io.OutputStream openOutputStream()
+javax.microedition.io.OutputConnection: java.io.DataOutputStream openDataOutputStream()
+org.microemu.microedition.Implementation
+org.microemu.microedition.ImplementationUnloadable
+org.microemu.microedition.ImplementationUnloadable: void unregisterImplementation()
+org.microemu.microedition.ImplementationInitialization
+org.microemu.microedition.ImplementationInitialization: java.lang.String PARAM_EMULATOR_ID
+org.microemu.microedition.ImplementationInitialization: void registerImplementation(java.util.Map)
+org.microemu.microedition.ImplementationInitialization: void notifyMIDletStart()
+org.microemu.microedition.ImplementationInitialization: void notifyMIDletDestroyed()
+javax.microedition.io.Datagram
+javax.microedition.io.Datagram: java.lang.String getAddress()
+javax.microedition.io.Datagram: byte[] getData()
+javax.microedition.io.Datagram: int getLength()
+javax.microedition.io.Datagram: int getOffset()
+javax.microedition.io.Datagram: void setAddress(java.lang.String)
+javax.microedition.io.Datagram: void setAddress(javax.microedition.io.Datagram)
+javax.microedition.io.Datagram: void setLength(int)
+javax.microedition.io.Datagram: void setData(byte[],int,int)
+javax.microedition.io.Datagram: void reset()
+javax.microedition.io.DatagramConnection
+javax.microedition.io.DatagramConnection: int getMaximumLength()
+javax.microedition.io.DatagramConnection: int getNominalLength()
+javax.microedition.io.DatagramConnection: void send(javax.microedition.io.Datagram)
+javax.microedition.io.DatagramConnection: void receive(javax.microedition.io.Datagram)
+javax.microedition.io.DatagramConnection: javax.microedition.io.Datagram newDatagram(int)
+javax.microedition.io.DatagramConnection: javax.microedition.io.Datagram newDatagram(int,java.lang.String)
+javax.microedition.io.DatagramConnection: javax.microedition.io.Datagram newDatagram(byte[],int)
+javax.microedition.io.DatagramConnection: javax.microedition.io.Datagram newDatagram(byte[],int,java.lang.String)
+javax.microedition.io.InputConnection
+javax.microedition.io.InputConnection: java.io.InputStream openInputStream()
+javax.microedition.io.InputConnection: java.io.DataInputStream openDataInputStream()
+org.microemu.cldc.ClosedConnection
+org.microemu.cldc.ClosedConnection: javax.microedition.io.Connection open(java.lang.String)
+javax.microedition.io.ContentConnection
+javax.microedition.io.ContentConnection: java.lang.String getType()
+javax.microedition.io.ContentConnection: java.lang.String getEncoding()
+javax.microedition.io.ContentConnection: long getLength()
+javax.microedition.io.Connection
+javax.microedition.io.Connection: void close()
+javax.microedition.io.StreamConnectionNotifier
+javax.microedition.io.StreamConnectionNotifier: javax.microedition.io.StreamConnection acceptAndOpen()
+com.sun.cdc.io.ConnectionBaseInterface
+com.sun.cdc.io.ConnectionBaseInterface: javax.microedition.io.Connection openPrim(java.lang.String,int,boolean)
+javax.microedition.io.StreamConnection
+javax.microedition.io.Connector
+javax.microedition.io.Connector: int READ
+javax.microedition.io.Connector: int WRITE
+javax.microedition.io.Connector: int READ_WRITE
+javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String)
+javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String,int)
+javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String,int,boolean)
+javax.microedition.io.Connector: java.io.DataInputStream openDataInputStream(java.lang.String)
+javax.microedition.io.Connector: java.io.DataOutputStream openDataOutputStream(java.lang.String)
+javax.microedition.io.Connector: java.io.InputStream openInputStream(java.lang.String)
+javax.microedition.io.Connector: java.io.OutputStream openOutputStream(java.lang.String)
+org.microemu.microedition.ImplFactory
+org.microemu.microedition.ImplFactory: java.lang.String DEFAULT
+org.microemu.microedition.ImplFactory: org.microemu.microedition.ImplFactory instance()
+org.microemu.microedition.ImplFactory: void register(java.lang.Class,java.lang.Class)
+org.microemu.microedition.ImplFactory: void register(java.lang.Class,java.lang.Object)
+org.microemu.microedition.ImplFactory: void unregister(java.lang.Class,java.lang.Class)
+org.microemu.microedition.ImplFactory: void registerGCF(java.lang.String,java.lang.Object)
+org.microemu.microedition.ImplFactory: void unregistedGCF(java.lang.String,java.lang.Object)
+org.microemu.microedition.ImplFactory: java.lang.String getCGFScheme(java.lang.String)
+org.microemu.microedition.ImplFactory: org.microemu.microedition.io.ConnectorDelegate getCGFImplementation(java.lang.String)
+org.microemu.microedition.ImplFactory: org.microemu.microedition.Implementation getImplementation(java.lang.Class,java.lang.Class)
+org.microemu.microedition.ImplementationInitialization
+org.microemu.microedition.ImplementationInitialization: java.lang.String PARAM_EMULATOR_ID
+org.microemu.microedition.ImplementationInitialization: void registerImplementation(java.util.Map)
+org.microemu.microedition.ImplementationInitialization: void notifyMIDletStart()
+org.microemu.microedition.ImplementationInitialization: void notifyMIDletDestroyed()
+javax.microedition.io.Connector
+javax.microedition.io.Connector: int READ
+javax.microedition.io.Connector: int WRITE
+javax.microedition.io.Connector: int READ_WRITE
+javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String)
+javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String,int)
+javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String,int,boolean)
+javax.microedition.io.Connector: java.io.DataInputStream openDataInputStream(java.lang.String)
+javax.microedition.io.Connector: java.io.DataOutputStream openDataOutputStream(java.lang.String)
+javax.microedition.io.Connector: java.io.InputStream openInputStream(java.lang.String)
+javax.microedition.io.Connector: java.io.OutputStream openOutputStream(java.lang.String)

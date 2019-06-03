@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: org.microemu.cldc.datagram.DatagramImplTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.161 sec <<< FAILURE!
+testGetAddress(org.microemu.cldc.datagram.DatagramImplTest)  Time elapsed: 0.042 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...localhost...> but was:<...127.0.0.1...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at org.microemu.cldc.datagram.DatagramImplTest.testGetAddress(DatagramImplTest.java:58)
+
+testSetAddressString(org.microemu.cldc.datagram.DatagramImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid Protocol localhost:1111
+	at org.microemu.cldc.datagram.DatagramImpl.setAddress(DatagramImpl.java:161)
+	at org.microemu.cldc.datagram.DatagramImplTest.testSetAddressString(DatagramImplTest.java:96)
+
+testSetAddressDatagram(org.microemu.cldc.datagram.DatagramImplTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...localhost...> but was:<...127.0.0.1...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at org.microemu.cldc.datagram.DatagramImplTest.testSetAddressDatagram(DatagramImplTest.java:106)
+

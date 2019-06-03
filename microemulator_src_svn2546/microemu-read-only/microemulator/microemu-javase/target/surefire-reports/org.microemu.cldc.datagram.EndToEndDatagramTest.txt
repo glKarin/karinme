@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: org.microemu.cldc.datagram.EndToEndDatagramTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.308 sec <<< FAILURE!
+testJ2MEtoJ2SE(org.microemu.cldc.datagram.EndToEndDatagramTest)  Time elapsed: 0.01 sec  <<< ERROR!
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:211)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:262)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:235)
+	at org.microemu.cldc.datagram.Connection.openConnection(Connection.java:148)
+	at org.microemu.microedition.io.ConnectorImpl.openSecure(ConnectorImpl.java:139)
+	at org.microemu.microedition.io.ConnectorImpl.access$200(ConnectorImpl.java:51)
+	at org.microemu.microedition.io.ConnectorImpl$1.run(ConnectorImpl.java:81)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.microemu.microedition.io.ConnectorImpl.open(ConnectorImpl.java:76)
+	at org.microemu.microedition.io.ConnectorAdapter.open(ConnectorAdapter.java:54)
+	at javax.microedition.io.Connector.open(Connector.java:53)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.createJ2MEServer(EndToEndDatagramTest.java:114)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.testJ2MEtoJ2SE(EndToEndDatagramTest.java:74)
+
+testJ2MEtoJ2ME(org.microemu.cldc.datagram.EndToEndDatagramTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:211)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:262)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:235)
+	at org.microemu.cldc.datagram.Connection.openConnection(Connection.java:148)
+	at org.microemu.microedition.io.ConnectorImpl.openSecure(ConnectorImpl.java:139)
+	at org.microemu.microedition.io.ConnectorImpl.access$200(ConnectorImpl.java:51)
+	at org.microemu.microedition.io.ConnectorImpl$1.run(ConnectorImpl.java:81)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.microemu.microedition.io.ConnectorImpl.open(ConnectorImpl.java:76)
+	at org.microemu.microedition.io.ConnectorAdapter.open(ConnectorAdapter.java:54)
+	at javax.microedition.io.Connector.open(Connector.java:53)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.createJ2MEServer(EndToEndDatagramTest.java:114)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.testJ2MEtoJ2ME(EndToEndDatagramTest.java:89)
+
+testJ2SEtoJ2SE(org.microemu.cldc.datagram.EndToEndDatagramTest)  Time elapsed: 0.004 sec  <<< ERROR!
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:211)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:262)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:235)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.createJ2SEServer(EndToEndDatagramTest.java:211)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.testJ2SEtoJ2SE(EndToEndDatagramTest.java:103)
+

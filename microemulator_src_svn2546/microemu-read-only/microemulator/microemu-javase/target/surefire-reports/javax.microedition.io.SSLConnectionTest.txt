@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: javax.microedition.io.SSLConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.95 sec

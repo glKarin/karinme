@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.287" errors="3" skipped="0" tests="4" name="org.microemu.cldc.datagram.EndToEndDatagramTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_45\jre\bin"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\java_bulid\FINAL\svn2546\microemu-read-only\microemulator\microemu-javase"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\java_bulid\FINAL\svn2546\microemu-read-only\microemulator\microemu-javase"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_45\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\dev-installer\svn_gui\bin;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Program Files\Java\jdk1.6.0_45\jre\bin;E:\dev-installer\apache-maven-2.2.1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefirebooter3322684987871032841.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_45\jre"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefirebooter3322684987871032841.jar C:\Users\ADMINI~1\AppData\Local\Temp\surefire3323074648719118445tmp C:\Users\ADMINI~1\AppData\Local\Temp\surefire3579474001995110044tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_45\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.202" classname="org.microemu.cldc.datagram.EndToEndDatagramTest" name="testJ2SEtoJ2ME"/>
+  <testcase time="0.006" classname="org.microemu.cldc.datagram.EndToEndDatagramTest" name="testJ2MEtoJ2SE">
+    <error message="Address already in use: Cannot bind" type="java.net.BindException">java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:211)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:262)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:235)
+	at org.microemu.cldc.datagram.Connection.openConnection(Connection.java:148)
+	at org.microemu.microedition.io.ConnectorImpl.openSecure(ConnectorImpl.java:139)
+	at org.microemu.microedition.io.ConnectorImpl.access$200(ConnectorImpl.java:51)
+	at org.microemu.microedition.io.ConnectorImpl$1.run(ConnectorImpl.java:81)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.microemu.microedition.io.ConnectorImpl.open(ConnectorImpl.java:76)
+	at org.microemu.microedition.io.ConnectorAdapter.open(ConnectorAdapter.java:54)
+	at javax.microedition.io.Connector.open(Connector.java:53)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.createJ2MEServer(EndToEndDatagramTest.java:114)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.testJ2MEtoJ2SE(EndToEndDatagramTest.java:74)
+</error>
+    <system-out>
+--------------------------------------------
+
+</system-out>
+  </testcase>
+  <testcase time="0.002" classname="org.microemu.cldc.datagram.EndToEndDatagramTest" name="testJ2MEtoJ2ME">
+    <error message="Address already in use: Cannot bind" type="java.net.BindException">java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:211)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:262)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:235)
+	at org.microemu.cldc.datagram.Connection.openConnection(Connection.java:148)
+	at org.microemu.microedition.io.ConnectorImpl.openSecure(ConnectorImpl.java:139)
+	at org.microemu.microedition.io.ConnectorImpl.access$200(ConnectorImpl.java:51)
+	at org.microemu.microedition.io.ConnectorImpl$1.run(ConnectorImpl.java:81)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.microemu.microedition.io.ConnectorImpl.open(ConnectorImpl.java:76)
+	at org.microemu.microedition.io.ConnectorAdapter.open(ConnectorAdapter.java:54)
+	at javax.microedition.io.Connector.open(Connector.java:53)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.createJ2MEServer(EndToEndDatagramTest.java:114)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.testJ2MEtoJ2ME(EndToEndDatagramTest.java:89)
+</error>
+    <system-out>
+--------------------------------------------
+
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="org.microemu.cldc.datagram.EndToEndDatagramTest" name="testJ2SEtoJ2SE">
+    <error message="Address already in use: Cannot bind" type="java.net.BindException">java.net.BindException: Address already in use: Cannot bind
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:211)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:262)
+	at java.net.DatagramSocket.&lt;init&gt;(DatagramSocket.java:235)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.createJ2SEServer(EndToEndDatagramTest.java:211)
+	at org.microemu.cldc.datagram.EndToEndDatagramTest.testJ2SEtoJ2SE(EndToEndDatagramTest.java:103)
+</error>
+    <system-out>
+--------------------------------------------
+
+</system-out>
+  </testcase>
+</testsuite>

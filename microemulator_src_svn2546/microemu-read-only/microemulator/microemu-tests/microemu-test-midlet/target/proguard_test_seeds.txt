@@ -1,0 +1,2 @@
+org.microemu.tests.MainTestMIDlet
+org.microemu.tests.UnitTestsMIDLet

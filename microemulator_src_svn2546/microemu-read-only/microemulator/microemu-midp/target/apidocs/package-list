@@ -1,0 +1,15 @@
+javax.microedition.io
+javax.microedition.lcdui
+javax.microedition.lcdui.game
+javax.microedition.midlet
+javax.microedition.pki
+javax.microedition.rms
+org.microemu
+org.microemu.app
+org.microemu.app.launcher
+org.microemu.app.ui
+org.microemu.device
+org.microemu.device.impl
+org.microemu.device.ui
+org.microemu.microedition.io
+org.microemu.util

@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: org.microemu.cldc.datagram.ConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.211 sec <<< FAILURE!
+testNewDatagramInt(org.microemu.cldc.datagram.ConnectionTest)  Time elapsed: 0.094 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid Protocol localhost:1234
+	at org.microemu.cldc.datagram.Connection.newDatagram(Connection.java:84)
+	at org.microemu.cldc.datagram.Connection.newDatagram(Connection.java:79)
+	at org.microemu.cldc.datagram.ConnectionTest.testNewDatagramInt(ConnectionTest.java:42)
+
+testNewDatagramIntString(org.microemu.cldc.datagram.ConnectionTest)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid Protocol localhost:123
+	at org.microemu.cldc.datagram.Connection.newDatagram(Connection.java:84)
+	at org.microemu.cldc.datagram.ConnectionTest.testNewDatagramIntString(ConnectionTest.java:54)
+
+testNewDatagramByteArrayInt(org.microemu.cldc.datagram.ConnectionTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid Protocol localhost:1234
+	at org.microemu.cldc.datagram.Connection.newDatagram(Connection.java:97)
+	at org.microemu.cldc.datagram.Connection.newDatagram(Connection.java:92)
+	at org.microemu.cldc.datagram.ConnectionTest.testNewDatagramByteArrayInt(ConnectionTest.java:67)
+
+testNewDatagramByteArrayIntString(org.microemu.cldc.datagram.ConnectionTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid Protocol localhost:123
+	at org.microemu.cldc.datagram.Connection.newDatagram(Connection.java:97)
+	at org.microemu.cldc.datagram.ConnectionTest.testNewDatagramByteArrayIntString(ConnectionTest.java:80)
+
+testGetLocalAddress(org.microemu.cldc.datagram.ConnectionTest)  Time elapsed: 0.022 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<111.35.177.147> but was:<0.0.0.0>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at org.microemu.cldc.datagram.ConnectionTest.testGetLocalAddress(ConnectionTest.java:97)
+
+testOpenConnection(org.microemu.cldc.datagram.ConnectionTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Port missing
+	at org.microemu.cldc.datagram.Connection.openConnection(Connection.java:137)
+	at org.microemu.cldc.datagram.ConnectionTest.testOpenConnection(ConnectionTest.java:126)
+

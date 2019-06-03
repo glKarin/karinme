@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.microemu.tests.ItemsOnFormTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.12 sec <<< FAILURE!
+testAddItems(org.microemu.tests.ItemsOnFormTest)  Time elapsed: 0.03 sec  <<< ERROR!
+java.lang.NullPointerException
+	at javax.microedition.lcdui.StringItem.<init>(StringItem.java:42)
+	at javax.microedition.lcdui.StringItem.<init>(StringItem.java:36)
+	at org.microemu.tests.ItemsOnFormTest.testAddItems(ItemsOnFormTest.java:47)
+

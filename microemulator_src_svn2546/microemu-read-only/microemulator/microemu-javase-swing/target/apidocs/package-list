@@ -1,0 +1,9 @@
+org.microemu.app
+org.microemu.app.capture
+org.microemu.app.ui.noui
+org.microemu.app.ui.swing
+org.microemu.app.ui.swing.logconsole
+org.microemu.app.util
+org.microemu.applet
+org.microemu.device.j2se
+org.microemu.device.j2se.ui

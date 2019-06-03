@@ -1,0 +1,6 @@
+javax.microedition.media
+javax.microedition.media.control
+javax.microedition.media.protocol
+org.microemu.media
+org.microemu.media.audio
+org.microemu.media.control

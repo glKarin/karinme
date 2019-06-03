@@ -1,0 +1,7 @@
+MIDlet-Jar-URL: microemu-injected.jar
+MIDlet-Jar-Size: 1195
+MIDlet-Name: microemu-injected
+MIDlet-Vendor: MicroEmulator Team
+MIDlet-Version: 3.0.0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
